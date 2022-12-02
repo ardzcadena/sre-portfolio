@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sre-portfolio"
+version = "0.1.0"
+description = ""
+authors = ["ardzcadena"]
+readme = "README.md"
+packages = [{include = "sre_portfolio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
